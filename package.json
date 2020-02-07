@@ -1,6 +1,6 @@
 {
-  "name": "ckeditor5-custom-build",
-  "author": "CKSource",
+  "name": "ckeditor5-build-base64image",
+  "author": "Mehdi Emrani",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -34,5 +34,18 @@
   },
   "scripts": {
     "build": "webpack --mode production"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehdiEmrani/ckeditor5-build-base64image.git"
+  },
+  "keywords": [
+    "ckeditor5",
+    "base64image"
+  ],
+  "bugs": {
+    "url": "https://github.com/MehdiEmrani/ckeditor5-build-base64image/issues"
+  },
+  "homepage": "https://github.com/MehdiEmrani/ckeditor5-build-base64image#readme"
 }
