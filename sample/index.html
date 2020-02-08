@@ -89,7 +89,6 @@
 						<strong>the culture</strong> of languages varies substantially and the language a person speaks is an essential element of daily life.
 					</p>
 				</div>
-				<div class="sidebar"></div>
 			</div></div>
 		</div>
 	</main>
@@ -108,46 +107,25 @@
 				
 				toolbar: {
 					items: [
-						'undo',
-						'redo',
-						'|',
-						'fontColor',
-						'fontBackgroundColor',
-						'fontSize',
-						'fontFamily',
 						'heading',
 						'|',
 						'blockQuote',
 						'bold',
 						'italic',
-						'horizontalLine',
-						'underline',
-						'strikethrough',
-						'removeFormat',
-						'|',
-						'codeBlock',
-						'code',
-						'|',
 						'bulletedList',
 						'numberedList',
+						'|',
+						'alignment',
 						'indent',
 						'outdent',
-						'alignment',
 						'|',
 						'link',
 						'imageUpload',
 						'insertTable',
 						'mediaEmbed',
 						'|',
-						'highlight',
-						'MathType',
-						'ChemType',
-						'pageBreak',
-						'subscript',
-						'superscript',
-						'|',
-						'todoList',
-						'comment'
+						'undo',
+						'redo'
 					]
 				},
 				language: 'en',
@@ -166,9 +144,7 @@
 					]
 				},
 				licenseKey: '',
-				sidebar: {
-				container: document.querySelector( '.sidebar' )
-			},
+				
 			} )
 			.then( editor => {
 				window.editor = editor;
