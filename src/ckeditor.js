@@ -20,9 +20,31 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
-import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
+import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
+import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
+import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
+import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
+import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
+import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
+import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock.js';
+import MathType from '@wiris/mathtype-ckeditor5';
+import MediaEmbedToolbar from '@ckeditor/ckeditor5-media-embed/src/mediaembedtoolbar.js';
+import Mention from '@ckeditor/ckeditor5-mention/src/mention.js';
+import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
+import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
+import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript.js';
+import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
+import Title from '@ckeditor/ckeditor5-heading/src/title.js';
+import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
+import Comments from '@ckeditor/ckeditor5-comments/src/comments.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 
@@ -47,9 +69,31 @@ Editor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	Base64UploadAdapter,
 	Alignment,
+	Base64UploadAdapter,
+	Code,
+	CodeBlock,
+	FontBackgroundColor,
+	FontColor,
+	FontSize,
+	FontFamily,
+	Highlight,
+	HorizontalLine,
 	ImageResize,
+	IndentBlock,
+	MathType,
+	MediaEmbedToolbar,
+	Mention,
+	PageBreak,
+	RemoveFormat,
+	Strikethrough,
+	Subscript,
+	Superscript,
+	Underline,
+	WordCount,
+	Title,
+	TodoList,
+	Comments,
 	Essentials,
 	Paragraph
 ];
